@@ -36,11 +36,11 @@ const EditarGenero = ( {match} ) => {
 
     return (
         <div className='container'>
-            <h1>Editar Genêro</h1>
+            <h1>Editar Gênero</h1>
             <Form>
                 <FormGroup>
-                    <Label for='name'>Nome do Genêro</Label>
-                    <Input type='text' value={name} onChange={onChange} className='form-control' id='name' placeholder='Nome do Genêro' />
+                    <Label for='name'>Nome do Gênero</Label>
+                    <Input type='text' value={name} onChange={onChange} className='form-control' id='name' placeholder='Nome do Gênero' />
                 </FormGroup>
                 <button type='button' onClick={save} className='btn btn-primary'>Salvar</button>
             </Form>
